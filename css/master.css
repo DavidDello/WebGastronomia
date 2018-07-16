@@ -1,0 +1,139 @@
+.space
+{
+    background: url(../img/body.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.clr-spc
+{
+  background-color: rgba(109, 184, 255, 0.4);
+  color:white;
+}
+hr
+{
+  border-color: white;
+  width: 98%;
+}
+.vr
+{
+  border-left: 1px solid white;
+}
+.myp,.list-group
+{
+  padding: 5px;
+  background-color:rgba(217, 255, 255, 0.3);
+}
+.button-group ul,.list-group
+{
+  width: 100%;
+  margin-left: 0;
+}
+.button-group ul li,.list-group
+{
+  list-style:none;
+}
+.button-group ul li a
+{
+  background-color: rgba(210, 255, 255, 0.1);
+  border: 1px solid rgba(63, 110, 255, 1);
+  color: rgba(63, 110, 255, 1);
+}
+.button-group ul li a:hover
+{
+  background-color: rgba(63, 110, 255, 1);
+  color: white;
+}
+.button-group ul li a:active
+{
+  background-color: rgba(63, 110, 255, 1);
+  color: white;
+}
+.img-spc
+{
+  width: 90px;
+  height: 200px;
+  border: 2px solid white;
+  margin: 5px;
+}
+.list-group li
+{
+  padding-left: 10px;
+}
+.list-group, .list-group .clr-spc
+{
+  border-radius: 5px 5px;
+}
+.list-group li:hover
+{
+  color:rgba(63, 110, 255, 1);
+  padding-left: 20px;
+}
+.list-group h5
+{
+  color:rgba(63, 110, 255, 1);
+}
+.publication-spc
+{
+  margin-bottom: 2%;
+  padding: 1.5%!important;
+  border-radius: 5px 5px;
+  background-color:rgba(172, 255, 255, 0.8);
+}
+.img-pbt
+{
+  max-height: 511.167px;
+  width: 100%;
+  height: auto;
+}
+
+.publication-spc p
+{
+  text-align : justify;
+}
+.publication-spc p, .publication-spc h3, .publication-spc h6
+{
+  color:rgba(63, 110, 255, 1);
+}
+.publication-spc label textarea,.publication-spc label button
+{
+  margin-bottom: 0;
+}
+.btn-spc
+{
+  background-color: rgba(63, 110, 255, 1);
+  border: 1px solid white;
+}
+.coment-spc
+{
+  padding: 1.5%;
+  margin: 1%;
+  border: 1px solid white;
+  border-radius:5px 5px;
+  overflow: hidden;
+}
+.img-coment-spc
+{
+  width:10%;
+  float: left;
+}
+.coment-spc p
+{
+  width:90%;
+  float: left;
+}
+.coment-spc:hover
+{
+  border: 2px solid rgba(63, 110, 255, 1);
+}
+
+@media (max-width:768px)
+{
+  header div
+  {
+    text-align: center!important;
+  }
+}
